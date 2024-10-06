@@ -1,0 +1,26 @@
+retrieve:
+  conplex:
+    conplex_path: ./params/pre_trained/ConPLex_v1_BindingDB.pt
+    protbert_path: ./params/pre_trained/huggingface/transformers/models--Rostlab--prot_bert
+  dock:
+    dock_nums: 5000
+    db_path: ../data/retrieval_database/BindingDB
+    dock_model: ./params/pre_trained/fabind.bin
+    vina_th: 0
+  rank: 
+    use_rank: True
+    choose_num: 64
+    model: ./params/pre_trained/ranking_model.pt
+
+
+sample:
+  seed: 4
+  num_samples: 100
+  beam_size: 300
+  max_steps: 50
+  threshold:
+    focal_threshold: 0.5
+    pos_threshold: 0.25
+    element_threshold: 0.3
+    hasatom_threshold: 0.6
+    bond_threshold: 0.4
