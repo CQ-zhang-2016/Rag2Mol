@@ -40,8 +40,8 @@ For further details, see Online Methods of our paper.
 <br>
 
 ## Data & Parameters
-  - **Data:** We provide pre-processed CrossDock dataset, which is widely used in SBDD field. This should be sufficient for reproducing our results. Please refer to [`README.md`](./data/README.md) for detailed explanation and download.
-  - **Parameters:** We provide the paramters of pre-trained two-level retriever, and you could directly predict by correctly downloading the Rag2Mol checkpoint. Please refer to [`README.md`](./src/params/README.md) for detailed explanation and download.
+  - **Data:** We provide pre-processed CrossDock dataset, which is widely used in SBDD field. This should be sufficient for reproducing our results. Please refer to [`data`](./data/README.md) for detailed explanation and download.
+  - **Parameters:** We provide the paramters of pre-trained two-level retriever, and you could directly predict by correctly downloading the Rag2Mol checkpoint. Please refer to [`parameters`](./src/params/README.md) for detailed explanation and download.
 
 **Important Note:** all data is for research-purpose only.
 
