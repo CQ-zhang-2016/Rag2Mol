@@ -51,7 +51,7 @@ For further details, see Online Methods of our paper.
 
 Following these steps to run the code:
   1. Clone the Rag2Mol repo.
-  2. Install the required packages. Please refer to [`requirements.txt`](./src/requirements.txt).
+  2. Install the required packages. Please refer to [`requirements.txt`](./src/requirements.txt) and we recommend Python 3.8.
   3. Download the corresponding [`data`](./data/README.md) and model [`parameters`](./src/params/README.md) and place them in the correct paths.
   2. Run `python train.py'` to train the Rag2Mol, or `taskset -c 1 python sample4pdb.py` for inference. For Rag2Mol-R, please ensure that the `results` folder has been automatically created before running `python rag2mol_r.py`.
 
