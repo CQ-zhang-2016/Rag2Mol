@@ -26,7 +26,7 @@ Briefly, given target pocket, we use a pre-trained global retriever to search fo
 During the generation, the molecular retriever is to rank and choose reference molecule from pocket-specific database as context information (Figure b). The message-passing module would aggregate information from reference molecule to generated molecular fragment through cross-KNN graph (Figure e).
 
 ### Step 3. Screen according to preset biochemical indicators
-We subject the filtered drug candidates to precise binding affinity calculations and subsequent wet-lab experiments. A set of criteria for reference: Vina$\in$[−20, −5], QED$\in$[0.5, 2], SA$\in$[0.5, 2], Lipinski$\in$[4, 5], LogP$\in$[0, 4].
+We subject the filtered drug candidates to precise binding affinity calculations and subsequent wet-lab experiments. A set of criteria for reference: Vina $\in$ [−20, −5], QED $\in$ [0.5, 2], SA $\in$ [0.5, 2], Lipinski $\in$ [4, 5], LogP $\in$ [0, 4].
 
 ### Step 4. Similarity search based on AI-generated molecules (Rag2Mol-R)
 We then randomly select representative molecule as scaffold template from each molecular cluster. Based on these templates, we search for the similar molecules within existing synthesizable compounds.
