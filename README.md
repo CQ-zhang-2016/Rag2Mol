@@ -15,7 +15,7 @@ This directory contains the code and resources of the following paper:
 We introduced the Rag2Mol algorithm to address the prevalent issue of non-synthesizable compounds in SBDD models. Our solution involves retrieving reference molecules to guide the AI model for more accurate navigation within a broad search space. Additionally, by using the generated molecules as templates for similarity search, we overcome the limitations of traditional virtual screening methods.
 
 <p align="center">
-<img  src="figure/drug_new.png" width="600" height="1000" > 
+<img  src="figure/drug_new.png" width="600" height="800" > 
 </p>
 
 
