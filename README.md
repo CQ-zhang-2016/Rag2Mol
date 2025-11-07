@@ -4,7 +4,7 @@
 This directory contains the code and resources of the following paper:
 
 <i>"Structure-based drug design based on Retrieval Augmented Generation
-". Under review. </i>
+". Oral in RECOMB 25. Publishen on Briefings in Bioinformatics. </i>
 
 1. Rag2Mol is a structure-based drug design (SBDD) model using retrieval augmented generation (RAG). It uses a two-level retriever and an augmented autoregressive SBDD to generate molecule within targeting protein pocket.
 2. The default network is a well-recognized GVP-based autoregressive network [1]. This software also supported user-defined network.
