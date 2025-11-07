@@ -58,6 +58,19 @@ Following these steps to run the code:
 ## License
 Rag2Mol is licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
+## Reference
+
+```bibtex
+@article{zhang2025rag2mol,
+  title={Rag2Mol: structure-based drug design based on retrieval augmented generation},
+  author={Zhang, Peidong and Peng, Xingang and Han, Rong and Chen, Ting and Ma, Jianzhu},
+  journal={Briefings in Bioinformatics},
+  volume={26},
+  number={3},
+  year={2025},
+  publisher={Oxford Academic}
+}
+```
 
 [1]. Peng, Xingang, et al. "Pocket2mol: Efficient molecular sampling based on 3d protein pockets." International Conference on Machine Learning. PMLR, 2022.
 
